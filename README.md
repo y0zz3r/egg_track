@@ -1,13 +1,5 @@
 # Hühnereier Zähler
 
-Die angegebene PHP-Datei enthält Funktionen zum Lesen und Schreiben der Anzahl der Eier in der Datendatei und eine Funktion zum Berechnen der Anzahl der Eier pro Monat.
-
-Beim Aufruf des Formulars werden die eingegebenen Daten in der Datei gespeichert.
-
-Die Anzahl der Eier wird dann aus der Datei gelesen und in der Tabelle angezeigt.
-
-Außerdem wird ein WhatsApp-Link mit der Anzahl der Eier für den Vormonat generiert.
-
-Die Grafik zeigt die Anzahl der Eier pro Monat.
-
-Das Diagramm wurde mit der Google Charts API erstellt. Wenn Sie auf die Schaltfläche „Kopieren“ klicken, wird der WhatsApp-Link in die Zwischenablage kopiert.
+Dieses Skript ist eine PHP-Webanwendung zur Verfolgung der Anzahl der gelegten Hühnereier.
+Es verwendet eine einfache Datenbank-Datei, um die Anzahl der Eier zu speichern und anzuzeigen.
+Es enthält auch eine Funktion zur Berechnung der monatlichen Anzahl der Eier und zur Erstellung eines WhatsApp-Nachrichtenlinks basierend auf den zuletzt gespeicherten Daten. Die Anwendung wird mit Google Charts dargestellt, um die monatliche Egg-Produktion visuell darzustellen.
