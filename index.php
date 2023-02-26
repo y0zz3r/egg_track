@@ -131,14 +131,13 @@ $monthly_counts = get_monthly_egg_counts($egg_counts);
         $last_month = date('Y-m', strtotime('last month'));
         $last_month_count = isset($monthly_counts[$last_month]) ? $monthly_counts[$last_month] : 0;
 
-        // generate a WhatsApp message
+        // generate a message
         $message = sprintf("Im letzten Monat haben unsere Hühner %d Eier gelegt. %s",
                            $last_month_count,
                            urlencode("🥚🐓🐔"));
-        $whatsapp_url = "https://wa.me/?text=$message";
     ?>
 
-    <h2>WhatsApp Message</h2>
+    <h2>Erstelle eine Nachricht</h2>
     <p>Im letzten Monat haben unsere Hühner <?php echo $last_month_count ?> Eier gelegt.</p>
     <p><button onclick="copyToClipboard('<?php echo $message ?>')">Kopiere die Nachricht</button></p>
 
